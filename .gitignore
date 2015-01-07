@@ -1,4 +1,6 @@
 node_modules
+test-logs
+test-reports
 .build*
 *.*~
 *.swp
