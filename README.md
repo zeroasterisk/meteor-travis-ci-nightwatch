@@ -15,6 +15,8 @@ Right now, we are only using selenium and firefox on travis-ci.
 
 If you want to see how to implement this yourself, take a look at the [.travis.yml](./.travis.yml) file.
 
+![screenshot](http://content.screencast.com/users/alanblount/folders/Jing/media/a83218c2-b8fb-4d32-b5ae-6bde10ff7463/00002932.png)
+
 ### Things to notice
 
 * I have chosen to include the selenium stand-alone driver in my git repo,
