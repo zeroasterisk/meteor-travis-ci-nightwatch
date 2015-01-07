@@ -9,11 +9,11 @@ before_install:
   - "sh -e /etc/init.d/xvfb start"
   # set the xvfb screen size to 1280x1024x16
   - "/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16"
-  # give xvfb some time to start
-  - sleep 3
-  # setup the Meteor environment for testing
-  - "curl -L http://git.io/ejPSng | /bin/sh"
+  # install meteor
+  - "curl https://install.meteor.com | /bin/sh"
   # setup Meteor app
-  - "cd app; meteor reset; meteor"
+  - "cd app; meteor reset; meteor -p 3000 &"
+  # give Meteor some time to start
+  - sleep 5
 
 env: TEST_COMMAND=./run_tests
