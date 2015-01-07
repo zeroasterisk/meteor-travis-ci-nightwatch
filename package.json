@@ -1,0 +1,25 @@
+{
+  "name": "meteor-travis-ci-nightwatch",
+  "version": "0.0.0",
+  "description": "example of meteor and travis-ci and nightwatch",
+  "main": "index.js",
+  "dependencies": {
+    "nightwatch": "^0.5.36"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.5.36"
+  },
+  "scripts": {
+    "test": "nightwatch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroasterisk/meteor-travis-ci-nightwatch.git"
+  },
+  "author": "alan blount <alan@zeroasterisk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeroasterisk/meteor-travis-ci-nightwatch/issues"
+  },
+  "homepage": "https://github.com/zeroasterisk/meteor-travis-ci-nightwatch"
+}
