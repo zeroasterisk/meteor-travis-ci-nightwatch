@@ -1,0 +1,17 @@
+#!/bin/bash
+#------------------------------
+#-- test runner
+#------------------------------
+
+# exit with an error, if any internal script errors
+set -e
+
+# setup Meteor (should already be done)
+#    curl https://install.meteor.com | /bin/sh
+#    meteor reset
+#    meteor
+
+# run Nightwatch test scripts against local Meteor
+./nightwatch --config nightwatch.json --test tests/leaderboard.js
+
+
