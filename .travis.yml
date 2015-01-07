@@ -13,7 +13,9 @@ before_install:
   - "curl https://install.meteor.com | /bin/sh"
   # setup Meteor app
   - "cd app; meteor reset; meteor -p 3000 &"
+  - "cd .."
   # give Meteor some time to start
-  - sleep 5
+  - "sleep 5"
 
 script: ./run_tests
+
