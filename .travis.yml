@@ -16,4 +16,4 @@ before_install:
   # give Meteor some time to start
   - sleep 5
 
-env: TEST_COMMAND=./run_tests
+script: ./run_tests
