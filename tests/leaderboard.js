@@ -4,6 +4,7 @@ module.exports = {
       .url("http://localhost:3000/")
       .waitForElementVisible('body', 1000)
       .waitForElementVisible('div.message', 5000)
+      .waitForElementVisible('#doesNotExists', 100)
       .waitForElementVisible('ol li.player', 1000)
       .click('ol li.player:nth-child(1)')
       .pause(100)
