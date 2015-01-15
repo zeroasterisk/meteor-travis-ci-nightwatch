@@ -1,5 +1,8 @@
 # Example of Meteor + Travis CI + Nightwatch
 
+> **⚠️ Personal Hobby Project** — This is an independent, personal project by [Alan Blount](https://github.com/zeroasterisk). It is **not affiliated with, endorsed by, or supported by any employer, company, or organization**. No warranty; use at your own risk.
+
+
 * [meteor.com](https://www.meteor.com/)
 * [travis-ci.org](https://travis-ci.org/)
 * [nightwatchjs.org](http://nightwatchjs.org/)
